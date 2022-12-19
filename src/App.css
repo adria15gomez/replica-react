@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Poppins&family=Space+Mono&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #2F303A;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+  background-color: #202027;
+  padding: 2vh 15vh; 
+}
+
+p{
   color: white;
+    
 }
 
-.App-link {
-  color: #61dafb;
+
+h1{
+  font-family:"Poppins";
+  width: 90vh;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2vh;
+  font-size: 5vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+li{
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+  color: white;
+  margin-top: 3vh;
+}
+
+.Landing {
+  /*width: 60vh;
+  padding: 80px  10px;*/
+  margin-left: 50vh;
+  margin-top: 80px;
+  width:55vh ;
 }
